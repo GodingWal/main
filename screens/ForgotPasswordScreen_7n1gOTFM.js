@@ -75,8 +75,8 @@ const ForgotPasswordScreen_7n1gOTFM = props => {
               }
             }}
             style={styles(theme).TextInputb7362647}
-            placeholder={'Enter your email address'}
             value={textInputValue}
+            placeholder={'Enter your email address'}
             editable={true}
             placeholderTextColor={theme.colors['Light']}
           />

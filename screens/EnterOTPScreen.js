@@ -48,8 +48,8 @@ const EnterOTPScreen = props => {
               }
             }}
             style={styles(theme).TextInput3af2cd0e}
-            placeholder={textInputValue}
             value={textInputValue}
+            placeholder={textInputValue}
             editable={true}
             placeholderTextColor={theme.colors['Light']}
             keyboardType={'numeric'}
@@ -64,8 +64,8 @@ const EnterOTPScreen = props => {
               }
             }}
             style={styles(theme).TextInput3af2cd0e}
-            placeholder={textInputValue}
             value={textInputValue}
+            placeholder={textInputValue}
             editable={true}
             placeholderTextColor={theme.colors['Light']}
             keyboardType={'numeric'}
@@ -80,8 +80,8 @@ const EnterOTPScreen = props => {
               }
             }}
             style={styles(theme).TextInput3af2cd0e}
-            placeholder={textInputValue}
             value={textInputValue}
+            placeholder={textInputValue}
             editable={true}
             placeholderTextColor={theme.colors['Light']}
             keyboardType={'numeric'}
@@ -96,8 +96,8 @@ const EnterOTPScreen = props => {
               }
             }}
             style={styles(theme).TextInput3af2cd0e}
-            placeholder={textInputValue}
             value={textInputValue}
+            placeholder={textInputValue}
             editable={true}
             placeholderTextColor={theme.colors['Light']}
             keyboardType={'numeric'}

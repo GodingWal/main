@@ -44,11 +44,7 @@ const Onboarding3Screen = props => {
               {'We will help you to \nAchieve your Dream \nBody'}
             </Text>
             {/* description */}
-            <Text style={styles(theme).Text2e4668bf}>
-              {
-                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy '
-              }
-            </Text>
+            <Text style={styles(theme).Text2e4668bf}>{null}</Text>
             {/* Get Started */}
             <Button
               onPress={() => {
@@ -58,7 +54,7 @@ const Onboarding3Screen = props => {
                   console.error(err);
                 }
               }}
-              style={styles(theme).Buttonc977dd64}
+              style={styles(theme).Buttond41f947e}
               title={'Get Started'}
             />
             {/* Login */}
@@ -76,7 +72,7 @@ const Onboarding3Screen = props => {
                   }
                 }}
               >
-                <Text style={styles(theme).Textf52254e9}>{'Register'}</Text>
+                <Text style={styles(theme).Textb47eed52}>{'Register'}</Text>
               </Touchable>
             </View>
           </LinearGradient>
@@ -88,8 +84,8 @@ const Onboarding3Screen = props => {
 
 const styles = theme =>
   StyleSheet.create({
-    Buttonc977dd64: {
-      backgroundColor: theme.colors['GetFit Orange'],
+    Buttond41f947e: {
+      backgroundColor: theme.colors['Custom Color_8'],
       borderRadius: 24,
       fontFamily: 'Inter_500Medium',
       fontSize: 16,
@@ -134,8 +130,8 @@ const styles = theme =>
       fontSize: 15,
       opacity: 1,
     },
-    Textf52254e9: {
-      color: theme.colors['Custom Color_13'],
+    Textb47eed52: {
+      color: theme.colors['Custom Color_8'],
       fontFamily: 'Inter_500Medium',
       fontSize: 15,
     },

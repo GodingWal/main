@@ -31,12 +31,12 @@ const OnboardingEnterAppScreen = props => {
           >
             {/* heading */}
             <Text style={styles(theme).Text199f746d}>
-              {"Welcome, let's \nexercise together"}
+              {"Welcome, let's \nreach your health goals together"}
             </Text>
             {/* description */}
             <Text style={styles(theme).Text2e4668bf}>
               {
-                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy '
+                '"We understand that reaching your health goals can be challenging, but \nwe\'re here to help. '
               }
             </Text>
             {/* Start Introduction */}
@@ -48,7 +48,7 @@ const OnboardingEnterAppScreen = props => {
                   console.error(err);
                 }
               }}
-              style={styles(theme).Button90a1f268}
+              style={styles(theme).Buttonf5f7c966}
               title={'Start Introduction'}
             />
           </LinearGradient>
@@ -60,8 +60,8 @@ const OnboardingEnterAppScreen = props => {
 
 const styles = theme =>
   StyleSheet.create({
-    Button90a1f268: {
-      backgroundColor: theme.colors['GetFit Orange'],
+    Buttonf5f7c966: {
+      backgroundColor: theme.colors['Custom Color_8'],
       borderRadius: 24,
       fontFamily: 'Inter_500Medium',
       fontSize: 16,

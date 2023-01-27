@@ -33,7 +33,9 @@ const Onboarding21Screen = props => {
           </Text>
           {/* description */}
           <Text style={styles(theme).Text5133a8e0}>
-            {'With a goal driven approach '}
+            {
+              'Track your active lifestyle with our state-of-the-art app. Monitor your \ndaily exercise and activity levels, set goals, and track your progress.'
+            }
           </Text>
         </View>
         {/* Next */}
@@ -48,7 +50,7 @@ const Onboarding21Screen = props => {
             }}
             style={styles(theme).Touchable3147e42c}
           >
-            <Circle size={60} bgColor={theme.colors['GetFit Orange']}>
+            <Circle size={60} bgColor={theme.colors['Custom Color_8']}>
               <Icon
                 size={24}
                 name={'Entypo/chevron-right'}

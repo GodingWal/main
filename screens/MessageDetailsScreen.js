@@ -169,8 +169,8 @@ const MessageDetailsScreen = props => {
                 }
               }}
               style={styles(theme).TextInput8cbd5376}
-              placeholder={'Type your message...'}
               value={textInputValue}
+              placeholder={'Type your message...'}
               placeholderTextColor={theme.colors['Custom Color_4']}
               editable={true}
             />

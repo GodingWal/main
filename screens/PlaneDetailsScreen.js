@@ -75,8 +75,8 @@ const PlaneDetailsScreen = props => {
                 }
               }}
               style={styles(theme).TextInput39f6b80f}
-              placeholder={'Build leg muscles'}
               value={textInputValue}
+              placeholder={'Build leg muscles'}
               editable={true}
               placeholderTextColor={theme.colors['Light']}
             />

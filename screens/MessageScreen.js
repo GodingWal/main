@@ -77,8 +77,8 @@ const MessageScreen = props => {
               }
             }}
             style={styles(theme).TextInput2e6d9c82}
-            placeholder={'Search...'}
             value={textInputValue}
+            placeholder={'Search...'}
             placeholderTextColor={theme.colors['Custom Color_4']}
             editable={true}
           />

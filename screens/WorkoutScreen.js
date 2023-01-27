@@ -78,8 +78,8 @@ const WorkoutScreen = props => {
                 }
               }}
               style={styles(theme).TextInput190cec5c}
-              placeholder={'Search...'}
               value={textInputValue}
+              placeholder={'Search...'}
               editable={true}
               placeholderTextColor={theme.colors['Custom Color_4']}
             />

@@ -49,8 +49,8 @@ const CreateAccountFormScreen = props => {
                 }
               }}
               style={styles(theme).TextInputb7362647}
-              placeholder={'Enter your first name'}
               value={textInputValue}
+              placeholder={'Enter your first name'}
               editable={true}
               placeholderTextColor={theme.colors['Light']}
             />
@@ -69,8 +69,8 @@ const CreateAccountFormScreen = props => {
                 }
               }}
               style={styles(theme).TextInputb7362647}
-              placeholder={'Enter your last name'}
               value={textInputValue}
+              placeholder={'Enter your last name'}
               editable={true}
               placeholderTextColor={theme.colors['Light']}
             />
@@ -91,8 +91,8 @@ const CreateAccountFormScreen = props => {
                   }
                 }}
                 style={styles(theme).TextInputcb71c607}
-                placeholder={'Create a password'}
                 value={textInputValue}
+                placeholder={'Create a password'}
                 editable={true}
                 placeholderTextColor={theme.colors['Light']}
                 secureTextEntry={true}
@@ -124,8 +124,8 @@ const CreateAccountFormScreen = props => {
                   }
                 }}
                 style={styles(theme).TextInputcb71c607}
-                placeholder={'Confirm password'}
                 value={textInputValue}
+                placeholder={'Confirm password'}
                 editable={true}
                 placeholderTextColor={theme.colors['Light']}
                 secureTextEntry={true}

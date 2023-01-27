@@ -71,8 +71,8 @@ const LoginEmailScreen = props => {
               }
             }}
             style={styles(theme).TextInputb7362647}
-            placeholder={'Enter your email address'}
             value={textInputValue}
+            placeholder={'Enter your email address'}
             editable={true}
             placeholderTextColor={theme.colors['Light']}
           />
@@ -92,8 +92,8 @@ const LoginEmailScreen = props => {
                   }
                 }}
                 style={styles(theme).TextInput61dd766c}
-                placeholder={'Create a password'}
                 value={textInputValue}
+                placeholder={'Create a password'}
                 editable={true}
                 placeholderTextColor={theme.colors['Light']}
                 secureTextEntry={true}

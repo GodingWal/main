@@ -82,8 +82,8 @@ const CreateaNewPasswordScreen = props => {
                   }
                 }}
                 style={styles(theme).TextInputcb71c607}
-                placeholder={'Create a password'}
                 value={textInputValue}
+                placeholder={'Create a password'}
                 editable={true}
                 placeholderTextColor={theme.colors['Light']}
                 secureTextEntry={true}
@@ -115,8 +115,8 @@ const CreateaNewPasswordScreen = props => {
                   }
                 }}
                 style={styles(theme).TextInputcb71c607}
-                placeholder={'Confirm password'}
                 value={textInputValue}
+                placeholder={'Confirm password'}
                 editable={true}
                 placeholderTextColor={theme.colors['Light']}
                 secureTextEntry={true}

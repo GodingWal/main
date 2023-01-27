@@ -30,7 +30,7 @@ const Onboarding23Screen = props => {
           {/* description */}
           <Text style={styles(theme).Text5133a8e0}>
             {
-              'Semper in cursus magna et eu varius nunc adipiscing. Elementum justo,'
+              "Whether you're trying to lose weight, gain muscle, or simply maintain a \nhealthy lifestyle, our app is here to help you every step of the way."
             }
           </Text>
         </View>
@@ -45,7 +45,7 @@ const Onboarding23Screen = props => {
               }
             }}
           >
-            <Circle size={60} bgColor={theme.colors['GetFit Orange']}>
+            <Circle size={60} bgColor={theme.colors['Custom Color_8']}>
               <Icon
                 size={24}
                 name={'Entypo/chevron-right'}

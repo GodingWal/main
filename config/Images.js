@@ -40,4 +40,5 @@ export default {
   IconGoogle: require('../assets/images/IconGoogle.png'),
   Hide: require('../assets/images/Hide.png'),
   PexelsNappy9360: require('../assets/images/PexelsNappy9360.png'),
+  AdventFitnessLogo2: require('../assets/images/AdventFitnessLogo2.png'),
 };
